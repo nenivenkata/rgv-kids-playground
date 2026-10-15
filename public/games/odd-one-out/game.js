@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['odd-one-out']={create(c,level){const big=level==='big';const [a,b]=c.shuffle(c.animals),answer=c.int(0,big?5:3),count=big?6:4;const tiles=Array.from({length:count},(_,i)=>({id:i,...c.text(i===answer?b.icon:a.icon,'Animal '+(i+1))}));return c.quiz('Which animal is different?',[],answer,tiles,'Tap the animal that does not match the others.');}};

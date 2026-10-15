@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['beginning-sounds']={create(c,level){const big=level==='big';const w=c.pick(c.words),a=w.word[0];return c.quiz('What letter starts '+w.word.toLowerCase()+'?',[c.text(w.icon),c.text(big?w.word.slice(1):w.word)],a,c.choices(a,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')),'Say the word together, then find its first letter.');}};

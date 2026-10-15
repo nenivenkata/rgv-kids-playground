@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['animal-sounds']={create(c,level){const big=level==='big';const a=c.pick(c.animals);return c.quiz('Which animal says '+a.sound+'?',[c.text('“'+a.sound+'!”')],a.name,c.choices(a.name,c.animals.map(x=>x.name)).map(name=>({id:name,...c.text(c.animals.find(x=>x.name===name).icon,name)})),'Read the animal sound together, or turn on spoken questions.');}};

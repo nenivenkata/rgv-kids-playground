@@ -1,0 +1,142 @@
+[
+  {
+    "id": "count-animals",
+    "title": "Count the Animals",
+    "category": "Numbers",
+    "icon": "🐥",
+    "description": "Count a group of friendly animals."
+  },
+  {
+    "id": "number-match",
+    "title": "Number Match",
+    "category": "Numbers",
+    "icon": "🔢",
+    "description": "Find the number that matches."
+  },
+  {
+    "id": "missing-number",
+    "title": "Missing Number",
+    "category": "Numbers",
+    "icon": "🚂",
+    "description": "Fill the gap in a number train."
+  },
+  {
+    "id": "simple-addition",
+    "title": "Simple Addition",
+    "category": "Numbers",
+    "icon": "🍎",
+    "description": "Put two groups together."
+  },
+  {
+    "id": "alphabet-match",
+    "title": "Alphabet Match",
+    "category": "Letters",
+    "icon": "🔤",
+    "description": "Match big letters to little letters."
+  },
+  {
+    "id": "find-letter",
+    "title": "Find the Letter",
+    "category": "Letters",
+    "icon": "🅰️",
+    "description": "Spot a letter among its friends."
+  },
+  {
+    "id": "beginning-sounds",
+    "title": "Beginning Sounds",
+    "category": "Letters",
+    "icon": "🐱",
+    "description": "Discover the start of a word."
+  },
+  {
+    "id": "complete-word",
+    "title": "Complete the Word",
+    "category": "Letters",
+    "icon": "✏️",
+    "description": "Find a word’s missing letter."
+  },
+  {
+    "id": "color-match",
+    "title": "Color Match",
+    "category": "Colors & shapes",
+    "icon": "🎨",
+    "description": "Find your favorite rainbow colors."
+  },
+  {
+    "id": "shape-match",
+    "title": "Shape Match",
+    "category": "Colors & shapes",
+    "icon": "⭐",
+    "description": "Find a shape’s matching twin."
+  },
+  {
+    "id": "color-sorting",
+    "title": "Color Sorting",
+    "category": "Colors & shapes",
+    "icon": "🧺",
+    "description": "Choose the right basket for a color."
+  },
+  {
+    "id": "shape-patterns",
+    "title": "Shape Patterns",
+    "category": "Colors & shapes",
+    "icon": "🔷",
+    "description": "Discover a repeating shape pattern."
+  },
+  {
+    "id": "animal-pairs",
+    "title": "Animal Pairs",
+    "category": "Thinking",
+    "icon": "🐸",
+    "description": "Turn cards over and find friends."
+  },
+  {
+    "id": "odd-one-out",
+    "title": "Find the Odd One",
+    "category": "Thinking",
+    "icon": "🦊",
+    "description": "Spot the one that is different."
+  },
+  {
+    "id": "what-comes-next",
+    "title": "What Comes Next?",
+    "category": "Thinking",
+    "icon": "🍓",
+    "description": "Find the next fruit in the pattern."
+  },
+  {
+    "id": "picture-puzzle",
+    "title": "Picture Puzzle",
+    "category": "Thinking",
+    "icon": "🧩",
+    "description": "Put four picture pieces together."
+  },
+  {
+    "id": "animal-sounds",
+    "title": "Animal Sounds",
+    "category": "Everyday learning",
+    "icon": "🐮",
+    "description": "Who says moo, woof, or meow?"
+  },
+  {
+    "id": "fruit-match",
+    "title": "Fruit Match",
+    "category": "Everyday learning",
+    "icon": "🍌",
+    "description": "Meet delicious fruit friends."
+  },
+  {
+    "id": "bigger-smaller",
+    "title": "Bigger or Smaller?",
+    "category": "Everyday learning",
+    "icon": "🐘",
+    "description": "Compare two sizes."
+  },
+  {
+    "id": "follow-sequence",
+    "title": "Follow the Sequence",
+    "category": "Everyday learning",
+    "icon": "👣",
+    "description": "Remember a little animal parade."
+  }
+]

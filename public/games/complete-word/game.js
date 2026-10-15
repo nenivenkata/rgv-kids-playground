@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['complete-word']={create(c,level){const big=level==='big';const w=c.pick(c.words),i=big?c.int(0,2):0,a=w.word[i];return c.quiz('Complete the word '+w.word.toLowerCase()+'.',[c.text(w.icon),c.text(w.word.slice(0,i)+'_'+w.word.slice(i+1))],a,c.choices(a,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')),'Use the picture and say the word together.');}};

@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['shape-patterns']={create(c,level){const big=level==='big';const [a,b,d]=c.shuffle(c.shapes),items=big?[a,b,d,a,b]:[a,b,a];const answer=big?d:b;return c.quiz('Which shape comes next?',[...items.map(x=>c.text(x.icon,x.name)),c.text('?')],answer.name,c.shuffle([a,b,d]).map(x=>({id:x.name,...c.text(x.icon,x.name)})));}};

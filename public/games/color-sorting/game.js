@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['color-sorting']={create(c,level){const big=level==='big';const a=c.pick(c.colors);return c.quiz('Which basket does this '+a.name+' ball belong in?',[c.swatch(a)],a.name,c.choices(a.name,c.colors.map(x=>x.name)).map(name=>({id:name,kind:'basket',value:c.colors.find(x=>x.name===name).color,label:name+' basket'})),'Sort the ball by choosing its matching color basket.');}};

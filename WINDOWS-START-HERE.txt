@@ -1,0 +1,42 @@
+RGV — START HERE
+
+1. Download rgv-kids-playground-20-games.zip to Downloads.
+2. Right-click the ZIP, choose Extract All, and leave the suggested folder name.
+3. Open Command Prompt. Paste ONLY the commands, one at a time:
+
+cd /d "%USERPROFILE%\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+npm start
+
+4. Open http://localhost:3001 in your browser.
+5. Keep Command Prompt open while playing. Press Ctrl+C when finished.
+
+This edition must run through npm start; do not double-click public/index.html.
+Node.js is already installed on your computer. No npm install is needed.
+
+UPLOAD TO YOUR EMPTY GITHUB REPOSITORY
+
+Stop the server with Ctrl+C, then run these commands from the same folder:
+
+npm test
+git init -b main
+git add .
+git commit -m "Add 20 modular kids learning games"
+git remote add origin https://github.com/nenivenkata/rgv-kids-playground.git
+git push -u origin main
+
+If Git opens your browser, sign in to GitHub. Do not type the URL as the commit message.
+If Git reports existing remote commits or an error, keep that message and inspect it before continuing. Do not force-push.
+
+ADD A GAME LATER
+
+npm run add-game -- animal-homes "Animal Homes" "Everyday learning"
+
+This creates an example. Replace its rules in public/games/animal-homes/game.js.
+Read docs/ADDING-GAMES.md for a complete example. Run npm test and try it in the browser.
+Then run:
+
+git add .
+git commit -m "Add Animal Homes game"
+git push
+
+Your previous poker project is separate. This project does not create AWS resources.

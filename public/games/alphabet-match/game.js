@@ -1,0 +1,2 @@
+// This file owns the game rules. Shared UI lives in public/shared/app.js.
+window.KidsGames['alphabet-match']={create(c,level){const big=level==='big';const a=c.pick((big?'ABCDEFGHIJKLMNOPQRSTUVWXYZ':'ABCDEF').split(''));const options=c.choices(a.toLowerCase(),'abcdefghijklmnopqrstuvwxyz'.split(''));return c.quiz('Find the little letter for '+a+'.',[c.text(a)],a.toLowerCase(),options,'Match the uppercase letter with its lowercase partner.');}};
