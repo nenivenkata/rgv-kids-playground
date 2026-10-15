@@ -138,5 +138,12 @@
     "category": "Everyday learning",
     "icon": "👣",
     "description": "Remember a little animal parade."
+  },
+  {
+    "id": "animal-homes",
+    "title": "Animal Homes",
+    "category": "Everyday learning",
+    "icon": "🌟",
+    "description": "A new adventure to discover."
   }
 ]
