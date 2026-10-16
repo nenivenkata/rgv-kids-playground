@@ -19,3 +19,6 @@ body{font-size:18px}.page{max-width:1440px;padding-left:32px;padding-right:32px}
 
 /* STUDY-NAV-ADDON */
 .study-navigation{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0;border-bottom:2px solid #dfe6d5;padding:0 0 16px}.study-tab{font:inherit;font-size:22px;font-weight:bold;padding:15px 28px;min-height:60px;border:2px solid #cfdbc2;border-radius:18px;background:#edf2e3;color:#35523c;cursor:pointer}.study-tab[aria-pressed=true]{background:#355e42;border-color:#355e42;color:white}.study-tab:focus-visible{outline:4px solid #3b75b8;outline-offset:4px}iframe.arcade-frame[title="Phonics & Spelling"]{max-width:740px;height:1160px}#scene:has(iframe[title="Phonics & Spelling"]){max-width:100%;padding:8px 0}@media(max-width:600px){.study-navigation{gap:10px}.study-tab{font-size:20px;padding:14px 22px}iframe.arcade-frame[title="Phonics & Spelling"]{height:1260px}}
+
+/* ALPHABET-TEACHER-FRAME */
+iframe.arcade-frame[title="Alphabet Teacher"]{max-width:820px;height:1800px}@media(max-width:600px){iframe.arcade-frame[title="Alphabet Teacher"]{height:2000px}}

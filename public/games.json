@@ -167,5 +167,13 @@
     "section": "study",
     "icon": "📚",
     "description": "Hear a word, build its spelling, and discover word families."
+  },
+  {
+    "id": "alphabet-teacher",
+    "title": "Alphabet Teacher",
+    "category": "Alphabet & sounds",
+    "section": "study",
+    "icon": "👩‍🏫",
+    "description": "Learn A–Z with Miss Maya, your animated learning friend."
   }
 ]

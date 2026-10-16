@@ -1,0 +1,71 @@
+RGV — ANIMATED A–Z ALPHABET TEACHER IN THE SAME STUDY TAB
+
+INSTALL
+1. Save rgv-alphabet-teacher-addon.zip in Downloads.
+2. Right-click the ZIP, choose Extract All, and keep the suggested folder name.
+3. Stop the running playground with Ctrl+C, then run:
+
+cd /d "C:\Users\veera\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+node "C:\Users\veera\Downloads\rgv-alphabet-teacher-addon\install-alphabet-teacher.js"
+npm test
+npm start
+
+4. Open http://localhost:3001 and press Ctrl+F5.
+5. Choose Study, then Alphabet Teacher.
+6. Press Teach this letter. Choose an English teacher voice from the dropdown.
+
+THE TEACHER
+Miss Maya is a female cartoon teacher drawn with SVG. She waves, blinks, and
+moves her mouth while the browser voice speaks. Her mouth follows speech
+activity, not exact lip shapes. A familiar female English voice is preferred
+when one is available, but the dropdown lets you pick any installed English
+voice. The app cannot guarantee a female voice on every device.
+
+LESSONS
+All 26 letters have uppercase/lowercase displays, a letter name, a picture,
+example words, a spoken explanation, a simple sound guide, and a mouth/practice
+tip. Lessons distinguish a letter name from sounds represented in words.
+Examples include A in apple, C in cat and city, Q working with U, and X near
+the end of fox and box. American letter names are used, including zee for Z.
+Vowel pronunciations vary by accent; this introduces common American models.
+
+Teach this letter reads a short guided lesson. Letter name repeats its name.
+Word examples models its sound in whole words. Previous/Next or A–Z buttons
+select another letter and begin its lesson. Stop speaking cancels playback.
+I practised this letter marks practice; Find the letter is a four-choice game.
+Stars reflect completing/practising a lesson or identifying a letter. The app
+does not listen to, record, or judge your child's pronunciation. No microphone
+or personal account is used. Practice marks last until the activity reloads.
+Reduced-motion preferences disable face/arm animations.
+
+IMPORTANT AUDIO LIMIT
+Browser speech pronounces letter names and whole-word examples. This update
+does NOT include human-recorded isolated phoneme audio. IPA symbols are a
+visual parent guide and are not passed to the speech engine. For pure sound
+modelling, practise with a grown-up or the Oxford Owl pronunciation resources.
+Do not treat a spoken letter name as its phonics sound, or add an unnecessary
+"uh" to consonants. Some voices require internet; if speech is unavailable,
+written captions and the letter activities remain available. Sound starts
+only after a click. This is introductory practice, not a full reading course.
+
+Resource used to distinguish letter names and phonics sounds:
+https://home.oxfordowl.co.uk/reading/reading-schemes/read-write-inc-phonics-guide/
+The lesson text and artwork are original; no Oxford recordings are bundled.
+
+SAVE TO THE SAME GITHUB REPOSITORY
+Open a second Command Prompt and use the MAIN PROJECT folder:
+
+cd /d "C:\Users\veera\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+git add .
+git commit -m "Add animated A to Z alphabet teacher under Study"
+git push
+
+Do not commit from the extracted add-on folder. The installer preserves the
+existing game catalogue, spelling activity, chess, racing, and large-text
+styles. If Study is missing, it adds the Games/Study navigation. It backs up
+shared files under update-backups, excluded from Git. No cloud services,
+packages, paid voice APIs, or web hosting are required.
+
+Browser visual and real-audio QA was unavailable here. Check the installed
+voice, captions, teacher animation, Stop, Previous/Next, and letter practice
+on your Windows browser. If a voice fails, choose another English voice.

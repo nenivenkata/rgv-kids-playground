@@ -1,0 +1,1 @@
+window.KidsGames['alphabet-teacher']={create(){return {mode:'arcade',prompt:'Alphabet Teacher',hint:'Meet Miss Maya. Learn letter names and explore their sounds in words.',src:'games/alphabet-teacher/index.html'};}};
