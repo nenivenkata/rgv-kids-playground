@@ -159,5 +159,13 @@
     "category": "Thinking",
     "icon": "♟️",
     "description": "Play the computer or share a two-player game."
+  },
+  {
+    "id": "phonics-spelling",
+    "title": "Phonics & Spelling",
+    "category": "Reading & spelling",
+    "section": "study",
+    "icon": "📚",
+    "description": "Hear a word, build its spelling, and discover word families."
   }
 ]

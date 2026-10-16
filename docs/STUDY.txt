@@ -1,0 +1,62 @@
+RGV — STUDY TAB WITH PHONICS & SPELLING
+
+INSTALL INTO YOUR CURRENT PROJECT
+1. Save rgv-study-addon.zip in Downloads.
+2. Right-click the ZIP, choose Extract All, and keep the suggested folder name.
+3. Stop the local server with Ctrl+C, then run these commands one at a time:
+
+cd /d "C:\Users\veera\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+node "C:\Users\veera\Downloads\rgv-study-addon\install-study.js"
+npm test
+npm start
+
+4. Open http://localhost:3001 and press Ctrl+F5.
+5. Choose the new Study tab, then open Phonics & Spelling.
+
+WHAT YOU GET
+Games tab: your current games, including racing and chess if installed.
+Study tab: Phonics & Spelling, with these three practice activities:
+- Listen & Spell: hear a word, see its picture, and put letter tiles in order.
+- First Letter: hear a word and find its beginning letter.
+- Word Families: find a word that rhymes with the example.
+Each practice session contains five items, with retry, hints, and star rewards.
+Choose Little explorers or Bigger explorers before opening the lesson.
+Bigger explorers adds more unused letters in Listen & Spell. Other activities
+have the same rules at both levels. Use the big buttons or type letters.
+Remove a letter by tapping its box, or use Remove last or Clear letters.
+
+AUDIO AND PHONICS
+Word Families also has Hear choices to read its answer words aloud.
+Use Hear the word to start speech; sound does not autoplay on opening.
+Browser speech reads whole English words. It is not a recording of individual
+phonemes. The expandable grown-up guide shows sound cues for practising
+blending together. Vowel cues use common short-vowel marks (a breve), not IPA.
+Some accents pronounce vowels differently. Letter names are not letter sounds.
+A parent can model sounds without adding an extra "uh" to consonants.
+Speech depends on the browser and installed voices; some voices need internet.
+If sound is unavailable, use Show word or have a grown-up read aloud.
+No microphone, recording, accounts, or saved personal data is used.
+Pictures use emoji; their appearance varies by computer.
+
+SAVE INTO YOUR SAME GITHUB REPOSITORY
+Open a second Command Prompt and run from the MAIN PROJECT folder:
+
+cd /d "C:\Users\veera\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+git add .
+git commit -m "Add Study tab and phonics spelling activities"
+git push
+
+Do not run git add or git commit from the downloaded add-on folder.
+
+ADDING FUTURE STUDY ITEMS
+Add a separate game/activity folder as usual and register it in public/games.json.
+Add "section": "study" to its catalogue object. It will then appear under Study.
+Entries with no section or a different section remain under Games. Existing
+reading games remain in Games unless you move them by adding that field.
+
+The installer backs up shared files under update-backups and leaves other game
+folders intact. Existing large-text styles are preserved. The new study screen
+already uses large text. No package installation or cloud service is needed.
+If the installer reports a compatibility error, share it before changing files.
+Browser visual QA was unavailable here; check Study/Games switching, audio,
+letter buttons, hints, and all three practice activities on your computer.

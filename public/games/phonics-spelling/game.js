@@ -1,0 +1,1 @@
+window.KidsGames['phonics-spelling']={create(c,level){return {mode:'arcade',prompt:'Phonics & Spelling',hint:'Listen, look, and build a word. A little practice every day.',src:'games/phonics-spelling/index.html?level='+level};}};
