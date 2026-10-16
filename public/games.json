@@ -145,5 +145,19 @@
     "category": "Everyday learning",
     "icon": "🌟",
     "description": "A new adventure to discover."
+  },
+  {
+    "id": "car-race",
+    "title": "Little Star Racer",
+    "category": "Racing & play",
+    "icon": "🏎️",
+    "description": "Steer, collect stars, and race to the finish!"
+  },
+  {
+    "id": "chess",
+    "title": "Little Chess Club",
+    "category": "Thinking",
+    "icon": "♟️",
+    "description": "Play the computer or share a two-player game."
   }
 ]

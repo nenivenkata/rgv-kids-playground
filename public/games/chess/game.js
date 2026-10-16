@@ -1,0 +1,1 @@
+window.KidsGames['chess']={create(){return {mode:'arcade',prompt:'Little Chess Club',hint:'Play the computer or share a two-player game. Tap a piece to see its legal moves.',src:'games/chess/index.html'};}};

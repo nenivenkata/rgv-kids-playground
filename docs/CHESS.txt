@@ -1,0 +1,56 @@
+RGV — ADD CHESS TO YOUR EXISTING KIDS PLAYGROUND
+
+BOTH MODES ARE INCLUDED
+1. Play the computer: you are White; the easy practice computer is Black.
+2. Two players: both people take turns on the same computer.
+This is local play, not online multiplayer.
+
+INSTALL ON WINDOWS
+1. Save rgv-chess-addon.zip in Downloads.
+2. Right-click the ZIP, choose Extract All, and keep the suggested folder name.
+3. Stop your playground server using Ctrl+C in its Command Prompt window.
+4. Run these commands from Command Prompt:
+
+cd /d "%USERPROFILE%\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+node "%USERPROFILE%\Downloads\rgv-chess-addon\install-chess.js"
+npm test
+npm start
+
+5. Refresh http://localhost:3001, choose All, and open Little Chess Club.
+6. Choose Play the computer or Two players from the dropdown inside the game.
+
+HOW TO PLAY
+Tap your piece, then one of the highlighted legal destinations. White moves
+first. In computer mode you always play White. The computer is a simple
+practice opponent, not a strong chess engine. Flip board rotates the view.
+Undo takes back a full human/computer turn, or one move in two-player mode.
+If you undo while the computer is thinking, its pending move is cancelled.
+Changing modes starts a fresh game. New game also resets the board.
+
+RULES INCLUDED
+Legal moves, king safety, check, checkmate, stalemate, castling, en passant,
+and promotion to queen, rook, bishop, or knight. Claim draw becomes available
+for threefold repetition or the 50-move rule. Fivefold repetition, 75 moves,
+and common insufficient-material positions end automatically. Rare dead
+positions requiring exhaustive proof are not detected automatically.
+
+There are no clocks, online accounts, saved matches, network opponents,
+paid services, or required third-party packages. No chess rating is provided.
+
+SAVE TO YOUR SAME GITHUB REPOSITORY
+After checking the game, open another Command Prompt in your project folder:
+
+git add .
+git commit -m "Add chess with computer and two-player modes"
+git push
+
+The installer preserves existing catalogue entries, including Animal Homes and
+Little Star Racer if already installed. It adds public/games/chess and its tests.
+It enables local arcade frames if needed. Shared files are backed up under
+update-backups, which is excluded from Git. This update works with or without
+the racing add-on installed. It does not overwrite your other game folders.
+
+Automated rules and integration checks are included. Browser visual QA was
+unavailable here; verify both modes, undo, board flipping, and promotion in
+your own browser. If the installer reports incompatible files, share that
+message instead of replacing your project.

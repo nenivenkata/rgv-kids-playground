@@ -1,0 +1,45 @@
+RGV — ADD LITTLE STAR RACER TO YOUR EXISTING PLAYGROUND
+
+1. Download rgv-car-race-addon.zip into Downloads.
+2. Right-click the ZIP, choose Extract All, and keep the suggested folder name.
+3. In the Command Prompt that is running your playground, press Ctrl+C.
+4. Run these commands, one at a time:
+
+cd /d "%USERPROFILE%\Downloads\rgv-kids-playground-20-games\rgv-kids-playground"
+node "%USERPROFILE%\Downloads\rgv-car-race-addon\install-car-race.js"
+npm test
+npm start
+
+5. Refresh http://localhost:3001 and choose Little Star Racer.
+Clear the search box or choose All if the card is not visible.
+
+CONTROLS
+- Click Let's race to begin.
+- Use Left/Right arrows on the keyboard, or the big buttons under the road.
+- Collect stars and avoid cars. After three bumps you can try again.
+- Reach the finish line to complete a race.
+- Space or the Pause button pauses. Switching away also pauses.
+- Little explorers is slower; Bigger explorers is faster.
+- Change the level on the main menu before starting the game.
+
+SAVE TO GITHUB
+After testing the game, open a second Command Prompt in your project folder:
+
+git add .
+git commit -m "Add Little Star Racer car game"
+git push
+
+WHAT THE INSTALLER CHANGES
+It adds public/games/car-race and a game-menu entry. It enables an arcade frame
+in the shared game screen, adds its CSS, permits same-origin game frames in
+the local server policy, and extends the automated checks. It preserves your
+other game entries, including Animal Homes. Previous versions of updated
+shared files are saved under update-backups; that folder is excluded from Git.
+No cloud resources, dependencies, accounts, or paid services are added.
+
+If the installer reports that your source differs, stop and share the message.
+Do not replace your whole project with this add-on.
+
+Verified with 36 passing automated checks against a copy including Animal Homes.
+Visual browser testing was unavailable here; check steering, pause, restart,
+and the finish screen in your own browser.

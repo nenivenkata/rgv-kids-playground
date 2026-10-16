@@ -1,0 +1,1 @@
+window.KidsGames['car-race']={create(c,level){return {mode:'arcade',prompt:'Little Star Racer',hint:'Steer your car, collect stars, and cruise to the finish line.',src:'games/car-race/index.html?level='+level};}};
