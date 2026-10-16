@@ -1,0 +1,3 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+module.exports=function serveSpeechSdk(req,res){if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}const file=path.join(__dirname,'node_modules','microsoft-cognitiveservices-speech-sdk','distrib','browser','microsoft.cognitiveservices.speech.sdk.bundle-min.js');fs.readFile(file,(error,data)=>{if(error){res.writeHead(503,{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store'});res.end('Run npm install in the project folder to install the Speech SDK.');return;}res.writeHead(200,{'Content-Type':'application/javascript; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(req.method==='HEAD'?undefined:data);});};

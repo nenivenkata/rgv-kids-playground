@@ -10,5 +10,8 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "1.52.0"
   }
 }
